@@ -1,28 +1,31 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Package: com.sk3l10x1ng.proxyforge
+Name: ProxyForge
+Version: 1.0
+Section: Utilities
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Maintainer: sk3l10x1ng
+Author: sk3l10x1ng
+Depends:
+Description: Forge and toggle the iOS Wi-Fi HTTP/HTTPS proxy and DNS overrides.
+Filename: ./debs/com.sk3l10x1ng.proxyforge_1.1_iphoneos-arm.deb
+Size: 155560
+MD5sum: 3fa3f479d368eb82c6d23eeb3e51f2af
+SHA256: 93bc451499e2067588dfccdbf0a956adb0c920a63472e0fef4e3583f4b406685
+Installed-Size: 376
+Depiction: https://sk3l10x1ng.github.io/Sileo/depictions/?p=com.sk3l10x1ng.proxyforge
 
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
-
+Package: com.sk3l10x1ng.proxyforge
+Name: ProxyForge
+Version: 1.0
+Section: Utilities
+Architecture: iphoneos-arm64
+Maintainer: sk3l10x1ng
+Author: sk3l10x1ng
+Depends:
+Description: Forge and toggle the iOS Wi-Fi HTTP/HTTPS proxy and DNS overrides.
+Filename: ./debs/com.sk3l10x1ng.proxyforge_1.1_iphoneos-arm64.deb
+Size: 155638
+MD5sum: 468b4a0044aef4af9f6410f7c5c86e9d
+SHA256: 1c31cc72e64980ba15e01542a4e92e0f0a04fc0b2207cb7e6ec278e5c285c526
+Installed-Size: 376
+Depiction: https://sk3l10x1ng.github.io/Sileo/depictions/?p=com.sk3l10x1ng.proxyforge

@@ -1,0 +1,21 @@
+<package>
+    <id>com.sk3l10x1ng.proxyforge</id>
+    <name>ProxyForge</name>
+    <version>1.0</version>
+    <compatibility>
+        <firmware>
+            <miniOS>14.0</miniOS>
+            <maxiOS>17.0</maxiOS>
+            <otherVersions>unconfirmed</otherVersions>
+        </firmware>
+    </compatibility>
+    <dependencies></dependencies>
+    <descriptionlist>
+        <description>Forge and toggle the iOS Wi-Fi HTTP/HTTPS proxy and DNS overrides from a single utility. Useful for traffic interception, debugging, and switching between proxy profiles on the fly.</description>
+    </descriptionlist>
+    <screenshots></screenshots>
+    <changelog>
+        <change>Initial release</change>
+    </changelog>
+    <links></links>
+</package>
