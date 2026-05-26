@@ -1,9 +1,9 @@
 <repo>
-	<footerlinks>
-		<link>
-			<name>GitHub</name>
-			<url>https://github.com/sk3l10x1ng</url>
-			<iconclass>fa fa-github</iconclass>
-		</link>
-	</footerlinks>
+    <footerlinks>
+        <link>
+            <name>sk3l10x1ng on GitHub</name>
+            <url>https://github.com/sk3l10x1ng</url>
+            <iconclass>fab fa-github</iconclass>
+        </link>
+    </footerlinks>
 </repo>

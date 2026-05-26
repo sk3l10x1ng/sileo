@@ -1,14 +1,15 @@
 Package: com.sk3l10x1ng.proxyforge
-Name: ProxyForge
 Version: 1.0
-Section: Utilities
 Architecture: iphoneos-arm64
 Maintainer: sk3l10x1ng
-Author: sk3l10x1ng
-Description: Forge and toggle the iOS Wi-Fi HTTP/HTTPS proxy and DNS overrides.
-Filename: ./debs/com.sk3l10x1ng.proxyforge_1.0_iphoneos-arm64.deb
+Installed-Size: 376
+Filename: ./debs/rootless/com.sk3l10x1ng.proxyforge_1.0_iphoneos-arm64_rootless.deb
 Size: 155638
 MD5sum: 468b4a0044aef4af9f6410f7c5c86e9d
+SHA1: e5513285bdd94f81773d5ff08ba453e218c8713a
 SHA256: 1c31cc72e64980ba15e01542a4e92e0f0a04fc0b2207cb7e6ec278e5c285c526
-Installed-Size: 376
+Section: Utilities
+Description: Forge and toggle the iOS Wi-Fi HTTP/HTTPS proxy and DNS overrides.
+Author: sk3l10x1ng
 Depiction: https://sk3l10x1ng.github.io/Sileo/depictions/?p=com.sk3l10x1ng.proxyforge
+Name: ProxyForge

@@ -1,41 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>sk3l10x1ng</title>
+  <title>sk3l10x1ng Repo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #f0f0f0;
+      font-family: 'Poppins', sans-serif;
+      padding-top: 20px;
+    }
+
+    .repo-header {
+      text-align: center;
+      padding: 60px 15px 40px 15px;
+      margin-bottom: 40px;
+      background: linear-gradient(145deg, #232323, #171717);
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    .repo-header img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .repo-header h1 {
+      font-size: 2.8em;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: #ffffff;
+    }
+
+    .repo-header .lead {
+      font-size: 1.2em;
+      color: #b0b0b0;
+      margin-bottom: 30px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .repo-buttons .btn {
+      background-color: #007bff;
+      border: none;
+      color: white;
+      padding: 12px 25px;
+      margin: 5px 10px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+    }
+
+    .repo-buttons .btn:hover {
+      background-color: #0056b3;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
+    }
+
+    .repo-buttons .btn-sileo {
+        background-color: #4CAF50;
+        box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+    }
+    .repo-buttons .btn-sileo:hover {
+         background-color: #388E3C;
+         box-shadow: 0 6px 12px rgba(76, 175, 80, 0.3);
+    }
+
+    .repo-social-links {
+      margin-top: 30px;
+    }
+    .social-link {
+      color: #a0a0a0;
+      font-size: 1.8em;
+      margin: 0 15px;
+      transition: color 0.3s ease, transform 0.3s ease;
+      display: inline-block;
+    }
+    .social-link:hover {
+      color: #ffffff;
+      transform: scale(1.1);
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2em;
+      font-weight: 600;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      color: #eee;
+    }
+
+    .package-card {
+      background-color: #2c2c2c;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .package-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    }
+
+    .package-card h4 {
+      font-size: 1.4em;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    .package-card p {
+      color: #c0c0c0;
+      flex-grow: 1;
+      margin-bottom: 20px;
+    }
+
+    .package-card .btn {
+      background-color: #3e3e3e;
+      border: none;
+      color: #f0f0f0;
+      padding: 8px 18px;
+      border-radius: 6px;
+      font-weight: 400;
+      transition: background-color 0.3s ease;
+      align-self: flex-start;
+    }
+
+    .package-card .btn:hover {
+      background-color: #555555;
+      color: #ffffff;
+    }
+
+    .row.match-height > [class*="col-"] {
+        display: flex;
+        flex-direction: column;
+    }
+
+     .repo-footer {
+        text-align: center;
+        padding: 30px 15px;
+        margin-top: 50px;
+        color: #888;
+        font-size: 0.9em;
+        border-top: 1px solid #333;
+     }
+  </style>
 </head>
 <body>
 
 <div class="container">
-	<h1><img src="CydiaIcon.png"> sk3l10x1ng</h1>
+
+  <div class="repo-header">
+    <img src="CydiaIcon.png" alt="sk3l10x1ng Repo Icon">
+    <h1>sk3l10x1ng Repo</h1>
+    <p class="lead">
+      Personal repository for jailbreak tweaks by sk3l10x1ng. Utilities and enhancements for your device.
+    </p>
+    <div class="repo-buttons">
+      <a class="btn btn-sileo" href="sileo://source/https://sk3l10x1ng.github.io/Sileo/">Add to Sileo</a>
+      <a class="btn btn-primary" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://sk3l10x1ng.github.io/Sileo/">Add to Cydia</a>
+    </div>
+    <div class="repo-social-links">
+      <a href="https://github.com/sk3l10x1ng" target="_blank" class="social-link" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+
+  <h2 class="section-title">Featured Packages</h2>
+
+  <div class="row match-height">
+    <div class="col-md-6 col-sm-12">
+      <div class="package-card">
+        <h4>ProxyForge</h4>
+        <p>Forge and toggle the iOS Wi-Fi HTTP/HTTPS proxy and DNS overrides from a single utility. Useful for traffic interception, debugging, and switching between proxy profiles on the fly.</p>
+        <a class="btn btn-default" href="depictions/?p=com.sk3l10x1ng.proxyforge">More Info &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="repo-footer">
+    &copy; 2026 sk3l10x1ng Repo.
+  </footer>
+
 </div>
 
-<div class="container">
-	<div class="well">
-		<p><span class="text-primary"><b>sk3l10x1ng's</b></span> repo.</p>
-		<p><code>https://sk3l10x1ng.github.io/Sileo/</code></p>
-		<a class="btn btn-sm btn-primary" href="sileo://source/https://sk3l10x1ng.github.io/Sileo/">Add to Sileo</a>
-		<a class="btn btn-sm btn-default" href="zbra://sources/add/https://sk3l10x1ng.github.io/Sileo/">Add to Zebra</a>
-		<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://sk3l10x1ng.github.io/Sileo/">Add to Cydia</a>
-	</div>
-</div>
-
-<div class="container">
-  <h3 id="wells" class="page-header">Featured Packages</h3>
-</div>
-
-<div class="container">
-	<div class="panel panel-default">
-	  <div class="panel-heading">ProxyForge</div>
-	  <div class="panel-body">
-		Forge and toggle the iOS Wi-Fi HTTP/HTTPS proxy and DNS overrides from a single utility.<br /><br />
-		<a class="btn btn-xs btn-default" href="depictions/?p=com.sk3l10x1ng.proxyforge">More info</a>
-	  </div>
-	</div>
-</div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </body>
 </html>
